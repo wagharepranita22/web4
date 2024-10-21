@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 15px;
+    border: solid 1.5px black;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+#nav i{
+    font-size: 15px;
+    border: solid 1.5px black;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+#nav h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 5px 10px;
+    border: solid 1.5px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#btn1{
+    border: solid 1px black;
+ 
+    background-color: white;
+}
+#btn2{
+    border: 0px;
+    background-color: orangered;
+    color: white;
+}
+
+#main>h1{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top :50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-28deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-21deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-14deg)
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(-7deg)
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 50px;
+    font-size: 15px;
+}
